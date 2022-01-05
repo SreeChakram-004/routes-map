@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+.App{
+  background-color: #72A1BF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button-style{
+padding:10px 12px;
+}
+.cv-btn{
+  text-transform: uppercase;
+  background-color: #F2FAFF;
+  color: #A0A3A5;
+  opacity: 1;
+  height: 2rem;
+  width: 4rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-content{
+  padding-top:36px;
+  padding-left: 36px;
+  padding-bottom:13rem;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+  padding-top: 1.5px;
+  background-color:#074770;
+  margin-top:12rem;
+  border-radius:25px;
+  padding-bottom: 4rem;
+}
+
+
+.map{
+  height:25rem ;
+  width:100%;
+  /* border-radius:25px; */
+  
+}
+.navbar{
+  background-color:#074770;
+  border-radius:25px;
+  height: 8rem;
+
+}
+
+.input-box{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.marker{
+  background-image: url("./images/marker.png"); 
+  background-size: cover;
+  width: 22px ;
+  height:22px;
+  background-color:yellow;
+  border-radius: 11px;
+  border:solid 3px darkslategray;
 }
